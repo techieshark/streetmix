@@ -5,7 +5,7 @@ function _showAboutDialogBox(event) {
     return;
   }
 
-  _hideMenus();
+  Stmx.ui.menus.hide();
 
   document.querySelector('#about').classList.add('visible');
   document.querySelector('#dialog-box-shield').classList.add('visible');

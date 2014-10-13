@@ -1,5 +1,5 @@
 function _showSaveAsImageDialogBox(event) {
-  _hideMenus();
+  Stmx.ui.menus.hide();
 
   document.querySelector('#save-as-image-transparent-sky').checked =
       settings.saveAsImageTransparentSky;
